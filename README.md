@@ -14,8 +14,7 @@ A Raycast extension for quickly inserting common arrow glyphs and symbols that t
 1. Open Raycast
 2. Search for "Insert Glyph"
 3. Select the desired glyph from the list
-4. The glyph will be copied to your clipboard
-5. Paste anywhere you need the glyph
+4. The glyph will be inserted into your active app
 
 ## Installation
 
