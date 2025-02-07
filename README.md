@@ -1,21 +1,30 @@
 # Glyph
 
-A Raycast extension for quickly inserting common arrow glyphs and symbols that typically replace ASCII representations.
+A Raycast extension for inserting arrow glyphs directly into any application.
 
 ## Features
 
-- Quick insertion of arrow glyphs (→, ←, ↑, ↓, ↔, ⇄)
-- Replaces common ASCII representations (-->, <--, ^, v, <-->, <->)
-- Copies directly to clipboard
-- Visual confirmation when copied
-
-## Usage
-
-1. Open Raycast
-2. Search for "Insert Glyph"
-3. Select the desired glyph from the list
-4. The glyph will be inserted into your active app
+- Direct insertion of arrow glyphs into active applications
+- Quick commands: Type "right", "left", "up", "down" in Raycast
+- Searchable list of all available glyphs
+- Replaces ASCII arrows with proper symbols:
+  - → (replaces -->)
+  - ← (replaces <--)
+  - ↑ (replaces ^)
+  - ↓ (replaces v)
+  - ↔ (replaces <-->)
+  - ⇄ (replaces <->)
 
 ## Installation
 
-Install this extension from the Raycast store.
+```bash
+# Clone repository
+git clone https://github.com/mvwi/glyphs.git
+cd glyphs
+
+# Install dependencies
+npm install
+
+# Build and install locally
+npm run build && rm -rf ~/.local/share/raycast/extensions/glyph && mkdir -p ~/.local/share/raycast/extensions/glyph && cp -r . ~/.local/share/raycast/extensions/glyph
+```
